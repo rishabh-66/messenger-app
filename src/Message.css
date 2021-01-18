@@ -1,0 +1,23 @@
+.message {
+    padding:10px;
+    margin:10px;
+    width:fit-content;
+}
+
+.message:nth-last-child(1){
+    margin-bottom: 110px;
+}
+
+.message__user {
+   margin-left:auto;
+   color:white;
+   text-align: left !important;
+}
+
+.message__userCard {
+    background-color: teal !important;
+}
+
+.message__guestCard {
+    background-color: thistle !important ;
+}
